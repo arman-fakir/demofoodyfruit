@@ -1,0 +1,6 @@
+{
+  "name": "Foody Rahat - Fresh Juice",
+  "description": "প্রতিদিন তাজা ও খাঁটি ফল থেকে তৈরি ১০০% প্রাকৃতিক ফ্রেশ জুস। কোনো প্রিজারভেটিভ নেই। ফুডি রাহাত অনলাইন জুস শপ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

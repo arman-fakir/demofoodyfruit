@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="bn" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ফ্রেশ জুস - ১০০% প্রাকৃতিক ও স্বাস্থ্যকর ফ্রেশ জুস | Foody Rahat</title>
+    <meta name="description" content="প্রতিদিন তাজা ও খাঁটি ফল থেকে তৈরি ফ্রেশ জুস। কোনো প্রিজারভেটিভ নেই। আজই অর্ডার করুন Foody Rahat থেকে। কল বা হোয়াটসঅ্যাপ: 01571509532।" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+
+    <!-- Safe fetch property wrapper to prevent "Cannot set property fetch of #<Window> which has only a getter" in sandboxed environments -->
+    <script>
+      (function() {
+        try {
+          var nativeFetch = window.fetch;
+          var customFetch = nativeFetch ? nativeFetch.bind(window) : undefined;
+          try {
+            Object.defineProperty(window, 'fetch', {
+              get: function() {
+                return customFetch;
+              },
+              set: function(val) {
+                customFetch = val;
+              },
+              configurable: true,
+              enumerable: true
+            });
+          } catch (e1) {
+            try {
+              Object.defineProperty(Window.prototype, 'fetch', {
+                get: function() {
+                  return customFetch;
+                },
+                set: function(val) {
+                  customFetch = val;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            } catch (e2) {}
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:title" content="ফ্রেশ জুস - ১০০% প্রাকৃতিক ও স্বাস্থ্যকর ফ্রেশ জুস | Foody Rahat" />
+    <meta property="og:description" content="প্রতিদিন তাজা ও খাঁটি ফল থেকে তৈরি ফ্রেশ জুস। কোনো প্রিজারভেটিভ নেই। আজই অর্ডার করুন Foody Rahat থেকে।" />
+    <meta property="og:site_name" content="Foody Rahat" />
+    <meta property="og:locale" content="bn_BD" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ফ্রেশ জুস - ১০০% প্রাকৃতিক ও স্বাস্থ্যকর ফ্রেশ জুস | Foody Rahat" />
+    <meta name="twitter:description" content="প্রতিদিন তাজা ও খাঁটি ফল থেকে তৈরি ফ্রেশ জুস। কোনো প্রিজারভেটিভ নেই। আজই অর্ডার করুন Foody Rahat থেকে।" />
+
+    <!-- Google Fonts: Hind Siliguri for Bengali -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥤</text></svg>" />
+  </head>
+  <body class="bg-[#FBFDFB] text-slate-800 antialiased font-sans selection:bg-emerald-100 selection:text-emerald-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,50 @@
+// Prisma Schema for Foody Rahat Orders
+// Database provider: MongoDB
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum OrderStatus {
+  PENDING
+  CONFIRMED
+  PROCESSING
+  DELIVERED
+  CANCELLED
+}
+
+enum DeliveryArea {
+  inside_dhaka
+  outside_dhaka
+}
+
+type OrderItem {
+  productId    String
+  productTitle String
+  unitPrice    Float
+  quantity     Int
+  subtotal     Float
+}
+
+model Order {
+  id              String       @id @default(auto()) @map("_id") @db.ObjectId
+  customerName    String
+  phone           String
+  address         String
+  deliveryArea    DeliveryArea
+  items           OrderItem[]
+  subtotal        Float
+  deliveryCharge  Float
+  total           Float
+  specialNotes    String?
+  status          OrderStatus  @default(PENDING)
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  @@map("orders")
+}

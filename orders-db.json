@@ -1,0 +1,218 @@
+[
+  {
+    "id": "FR-31382110",
+    "customerName": "Asia",
+    "phone": "01885046261",
+    "address": "Vill: bongram",
+    "deliveryArea": "outside_dhaka",
+    "deliveryAreaLabel": "ঢাকার বাইরে",
+    "items": [
+      {
+        "productId": "dragon-fruit-juice",
+        "productTitle": "ফ্রেশ ড্রাগন ফ্রুট জুস",
+        "englishTitle": "Fresh Dragon Fruit Juice",
+        "unitPrice": 150,
+        "quantity": 1,
+        "subtotal": 150
+      }
+    ],
+    "subtotal": 150,
+    "deliveryCharge": 120,
+    "grandTotal": 270,
+    "specialNotes": "",
+    "status": "CONFIRMED",
+    "createdAt": "2026-09-24T16:32:33.139Z"
+  },
+  {
+    "id": "FR-77768332",
+    "customerName": "Faysal",
+    "phone": "01885046261",
+    "address": "Vill: bongram",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "dragon-fruit-juice",
+        "productTitle": "ফ্রেশ ড্রাগন ফ্রুট জুস",
+        "englishTitle": "Fresh Dragon Fruit Juice",
+        "unitPrice": 150,
+        "quantity": 1,
+        "subtotal": 150
+      },
+      {
+        "productId": "orange-malta-juice",
+        "productTitle": "ফ্রেশ অরেঞ্জ / মাল্টা জুস",
+        "englishTitle": "Fresh Orange Malta Juice",
+        "unitPrice": 130,
+        "quantity": 1,
+        "subtotal": 130
+      }
+    ],
+    "subtotal": 280,
+    "deliveryCharge": 60,
+    "grandTotal": 340,
+    "specialNotes": "borof pathan",
+    "status": "CONFIRMED",
+    "createdAt": "2026-09-24T16:05:57.777Z"
+  },
+  {
+    "id": "FR-73004143",
+    "customerName": "মোঃ আরমান",
+    "phone": "01571509532",
+    "address": "মিরপুর-১০, রোড ৪, ব্লক-সি, ঢাকা",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "fresh-malta-juice",
+        "productTitle": "ফ্রেশ মাল্টা জুস",
+        "englishTitle": "Fresh Malta Juice",
+        "unitPrice": 280,
+        "quantity": 2,
+        "subtotal": 560
+      },
+      {
+        "productId": "fresh-pomegranate-juice",
+        "productTitle": "ফ্রেশ আনার জুস",
+        "englishTitle": "Fresh Pomegranate Juice",
+        "unitPrice": 350,
+        "quantity": 1,
+        "subtotal": 350
+      }
+    ],
+    "subtotal": 910,
+    "deliveryCharge": 60,
+    "grandTotal": 970,
+    "specialNotes": "অফিসের ঠিকানায় দুপুর ১২টার মধ্যে ডেলিভারি দিলে ভালো হয়।",
+    "status": "CONFIRMED",
+    "createdAt": "2026-09-24T12:30:00.000Z"
+  },
+  {
+    "id": "FR-68214910",
+    "customerName": "তানভীর আহমেদ",
+    "phone": "01711223344",
+    "address": "উত্তরা সেক্টর ৭, রোড ১৩, ঢাকা",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "fresh-orange-juice",
+        "productTitle": "ফ্রেশ অরেঞ্জ জুস",
+        "englishTitle": "Fresh Orange Juice",
+        "unitPrice": 280,
+        "quantity": 2,
+        "subtotal": 560
+      }
+    ],
+    "subtotal": 560,
+    "deliveryCharge": 60,
+    "grandTotal": 620,
+    "specialNotes": "প্যাকিং ভালো করবেন যেন জুস পড়ে না যায়।",
+    "status": "CONFIRMED",
+    "createdAt": "2026-09-24T11:45:00.000Z"
+  },
+  {
+    "id": "FR-82914022",
+    "customerName": "নুসরাত জাহান",
+    "phone": "01822334455",
+    "address": "ধানমন্ডি ২৭, বাড়ি ১২, ফ্ল্যাট ৪এ, ঢাকা",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "dragon-fruit-juice",
+        "productTitle": "ফ্রেশ ড্রাগন ফ্রুট জুস",
+        "englishTitle": "Fresh Dragon Fruit Juice",
+        "unitPrice": 320,
+        "quantity": 2,
+        "subtotal": 640
+      }
+    ],
+    "subtotal": 640,
+    "deliveryCharge": 60,
+    "grandTotal": 700,
+    "specialNotes": "চিনি ছাড়া বানাবেন প্লিজ।",
+    "status": "PROCESSING",
+    "createdAt": "2026-09-24T10:15:00.000Z"
+  },
+  {
+    "id": "FR-91047261",
+    "customerName": "শাকিল হাসান",
+    "phone": "01933445566",
+    "address": "গুলশান-২, রোড ৭৪, ঢাকা",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "fresh-malta-juice",
+        "productTitle": "ফ্রেশ মাল্টা জুস",
+        "englishTitle": "Fresh Malta Juice",
+        "unitPrice": 280,
+        "quantity": 3,
+        "subtotal": 840
+      }
+    ],
+    "subtotal": 840,
+    "deliveryCharge": 60,
+    "grandTotal": 900,
+    "specialNotes": "বিকেল ৪টার আগে কল করবেন।",
+    "status": "PROCESSING",
+    "createdAt": "2026-09-24T09:30:00.000Z"
+  },
+  {
+    "id": "FR-45019283",
+    "customerName": "রাশেদুল ইসলাম",
+    "phone": "01644556677",
+    "address": "বনশ্রী ব্লক-বি, মেইন রোড, ঢাকা",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "fresh-pomegranate-juice",
+        "productTitle": "ফ্রেশ আনার জুস",
+        "englishTitle": "Fresh Pomegranate Juice",
+        "unitPrice": 350,
+        "quantity": 1,
+        "subtotal": 350
+      },
+      {
+        "productId": "fresh-orange-juice",
+        "productTitle": "ফ্রেশ অরেঞ্জ জুস",
+        "englishTitle": "Fresh Orange Juice",
+        "unitPrice": 280,
+        "quantity": 1,
+        "subtotal": 280
+      }
+    ],
+    "subtotal": 630,
+    "deliveryCharge": 60,
+    "grandTotal": 690,
+    "specialNotes": "ক্যাশ অন ডেলিভারি তৈরি আছে।",
+    "status": "DELIVERED",
+    "createdAt": "2026-09-23T16:20:00.000Z"
+  },
+  {
+    "id": "FR-33019842",
+    "customerName": "আব্দুল করিম",
+    "phone": "01355667788",
+    "address": "যাত্রাবাড়ী মোড়, ঢাকা",
+    "deliveryArea": "inside_dhaka",
+    "deliveryAreaLabel": "ঢাকার ভেতরে",
+    "items": [
+      {
+        "productId": "fresh-malta-juice",
+        "productTitle": "ফ্রেশ মাল্টা জুস",
+        "englishTitle": "Fresh Malta Juice",
+        "unitPrice": 280,
+        "quantity": 1,
+        "subtotal": 280
+      }
+    ],
+    "subtotal": 280,
+    "deliveryCharge": 60,
+    "grandTotal": 340,
+    "specialNotes": "গ্রাহক জরুরি প্রয়োজনে ঢাকার বাইরে যাওয়ায় অর্ডার বাতিল করেছেন।",
+    "status": "CANCELLED",
+    "createdAt": "2026-09-23T14:10:00.000Z"
+  }
+]
